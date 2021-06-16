@@ -1,0 +1,26 @@
+
+nav{
+   background-color:#201f24;
+
+   font-size: 20px;
+}
+nav ul li a{
+   color: white;
+}
+#game1 {
+   margin-right: 640px;
+}
+
+#copy{
+   font-size: 20px;
+   text-align: center;
+   background-color:#201f24;
+   color: white;
+   position: absolute;
+}
+h1{
+   text-align: center;
+}
+p{
+   text-align: center;
+}

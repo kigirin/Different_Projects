@@ -1,0 +1,54 @@
+
+nav{
+   background-color:#201f24;
+
+   font-size: 20px;
+}
+nav ul li a{
+   color: white;
+}
+#PS_h{
+   color: #201f24;
+}
+#PS_p{
+   color: #201f24;
+}
+#chart{
+   text-align: center;
+   background-color:#201f24;
+   color: white;
+   padding-top: 7px;
+   padding-bottom: 7px;
+}
+#charts{
+   background-color:#201f24;
+   margin-top: -10px;
+}
+#charts img{
+   margin-left: -4px;
+}
+#rdr{
+   margin-left: 50px;
+}
+#news{
+   text-align: center;
+   color:#201f24;
+   background-color: white;
+   padding-top: 1px;
+   padding-bottom: 7px;
+}
+#new{
+   background-color:white;
+   margin-top: -10px;
+}
+#new img{
+   margin-left: -4px;
+}
+
+#copy{
+   font-size: 20px;
+   text-align: center;
+   background-color:#201f24;
+   color: white;
+   position: absolute;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+   
+   <head>
+         <title>Order</title>
+         <link rel="icon" href="images/icon.png">
+         <link rel = "stylesheet" href = "MainStyle.css">
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+         <script src="jquery-3.6.0.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+   </head>
+   <body> 
+      <nav class="navbar navbar-expand-md" id="navtab"> <!--navigation bar-->
+            <ul class="navbar-nav">
+               <a class="navbar-brand" href="Main.html">
+                  &nbsp;
+                  <img src="images/icon.png" width="35" height="35">
+               </a>
+               <li class="navbar-item">
+                  <a class="nav-link" href="Main.html" id="links"> Home</a>
+               </li>
+               <li class="navbar-item">
+                  <a class="nav-link" href="Games.html" id="links">Games</a>
+               </li>
+               <li class="navbar-item">
+                  <a class="nav-link" href="Help.html" id="links">Help</a>
+               </li>
+               </ul>
+      </nav>
+      <p>&nbsp;</p>
+         <div class="container"> <!--container with input-->
+            <h1>Checkout</h1>
+            <p>Please enter your personal information in order to buy a product. After inserting we will send digital code to your Email.</p>
+            <h3>Name</h3>
+            <input type="email" id="mail" minlength="1" size="40">
+            <h3>Surname</h3>
+            <input type="email" id="mail" minlength="1" size="40">
+            <h3>Email</h3>
+            <input type="email" id="mail" minlength="6" size="40">
+            <h3>Phone number</h3>
+            <input type="email" id="mail" minlength="10" size="40">
+            <h3>Credit card number</h3>
+            <img src="images/card.jpg" width="310" height="75">
+            <p></p>
+            <input type="email" id="mail" minlength="16" maxlength="16" size="40">
+            <h3>CVV</h3>
+            <input type="email" id="mail" minlength="2" maxlength="4" size="40">
+            <p>&nbsp;</p>
+            <a id="target" class="btn btn-danger">
+               Order
+            </a>
+            <script>
+               $( "#target" ).click(function() { //jquery element click
+                  alert( "Thank you ! Please check your email in order to get key" );
+               });
+               </script>
+         </div>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      </div>
+            <p id="copy" class="container-fluid">
+               &copy; Copyright All rights reserved
+            </p>
+   </body>
+<footer>
+</footer>
+</html>

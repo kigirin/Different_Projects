@@ -1,0 +1,47 @@
+
+#links {
+   font-size: 28px;
+   color : white;
+   background-color : rgba(235,58,40,255);
+}
+#navtab{
+   background-color: rgba(235,58,40,255);
+}
+#headname{
+   color: white;
+}
+#face-head{
+   color: black;
+   font-weight: bold;
+   margin-top: -300px;
+}
+#face_img{
+   height: 101%;
+   width: 101%;
+}
+#copy{
+   text-align: center;
+   background-color: black;
+}
+#face-head{
+   margin-top: -180px;
+   font-size: 80px;
+   color: white;
+}
+#Desc{
+   margin-top: 50px
+}
+#Desc H1{
+   rgba(235,58,40,255);
+}
+#Desc p{
+
+}
+#first{
+   width: 750px;
+   height: 390px;
+}
+#second{
+   width: 750px;
+   height: 390px;
+}

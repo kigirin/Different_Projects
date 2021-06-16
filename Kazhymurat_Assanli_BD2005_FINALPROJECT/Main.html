@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+   
+   <head>
+         <title>Video Game Shop</title> <!--PaGe name-->
+         <link rel="icon" href="images/icon.png">
+         <link rel = "stylesheet" href = "MainStyle.css"><!--Links to libraries and other files-->
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+   </head>
+   <body> 
+      <nav class="navbar navbar-expand-md" id="navtab"> <!--navigation bar-->
+            <ul class="navbar-nav">
+               <a class="navbar-brand" href="Main.html">
+                  &nbsp;
+                  <img src="images/icon.png" width="35" height="35"> <!--Brand icon-->
+               </a>
+               <li class="navbar-item">
+                  <a class="nav-link" href="Main.html" id="links"> Home</a> <!--Links-->
+               </li>
+               <li class="navbar-item">
+                  <a class="nav-link" href="Games.html" id="links">Games</a>
+               </li>
+               <li class="navbar-item">
+                  <a class="nav-link" href="Help.html" id="links">Help</a>
+               </li>
+               </ul>
+      </nav>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel"> <!--carousel that changes slides-->
+         <div class="carousel-indicators">
+           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button> 
+           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+         </div>
+         <div class="carousel-inner"> <!--first slide-->
+           <div class="carousel-item active">
+             <img src="images/playstation.png" class="d-block w-100">
+             <div class="carousel-caption d-none d-md-block">
+               <h3 id="PS_h">Games for new generation</h3>
+               <p id="PS_p">Buy now games for new Sony's console</p>
+             </div>
+           </div>
+           <div class="carousel-item"> <!--second slide-->
+             <img src="images/xbox.jpeg" class="d-block w-100">
+             <div class="carousel-caption d-none d-md-block">
+               <h3>Games for new generation</h3>
+               <p>Buy new games for new Xbox game console</p>
+             </div>
+           </div>
+         </div>
+         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Previous</span>
+         </button>
+         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Next</span>
+         </button>
+       </div>
+       <div>
+          <h3 id="chart">
+             Game Charts
+             </h3>
+       </div>
+       <div class="container-fluid" id="charts"> <!--Box-arts of games-->
+          <img src="images/RDR2.jpg" width="313" height="395" id="rdr">
+          <img src="images/BF5.jpg" width="313" height="395">
+          <img src="images/W3.jpg" width="313" height="395">
+          <img src="images/skyrim.jpg" width="313" height="395">
+          <img src="images/SWBF2.jpg" width="313" height="395">
+          <img src="images/NFS.png" width="313" height="395">
+          </div>
+          <h3 id="chart">
+            &nbsp;
+            </h3>
+          <div>
+            <h3 id="news">
+               New Avaiblable games
+               </h3>
+         </div>
+          <div class="container-fluid" id="new"> <!--Box arts of games-->
+            <img src="images/F76.jpg" width="313" height="395">
+            <img src="images/AS.jpg" width="313" height="395">
+            <img src="images/COD.jpg" width="313" height="395">
+            <img src="images/Hitman.jpg" width="313" height="395">
+            <img src="images/total.jpg" width="313" height="395">
+            <img src="images/sekiro.jpg" width="313" height="395">
+            </div>
+         <div>
+            <h5 id="news">
+               &nbsp;
+               </h5>
+            <p id="copy" class="container-fluid">
+               &copy; Copyright All rights reserved
+            </p>
+         </div>
+   </body>
+<footer>
+</footer>
+</html>
